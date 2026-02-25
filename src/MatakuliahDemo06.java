@@ -9,7 +9,7 @@ public class MatakuliahDemo06 {
 
 
         // Proses Input menggunakan method tambahData
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < jml; i++) {
             System.out.println("Masukkan Data Matakuliah ke-" + (i + 1));
             arrayOfMatakuliah[i] = new Matakuliah02(); // Inisialisasi objek
             arrayOfMatakuliah[i].tambahData(); // Panggil method tambahData
@@ -18,7 +18,7 @@ public class MatakuliahDemo06 {
         
         // Proses Output menggunakan method cetakInfo
         System.out.println("\n=== Data Matakuliah ===");
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < jml; i++) {
             System.out.println("Data Matakuliah ke-" + (i + 1));
             arrayOfMatakuliah[i].cetakInfo(); // Panggil method cetakInfo
         }
